@@ -1,0 +1,33 @@
+/* @flow */
+
+export const WORKER_ROLE = 'WORKER';
+export const EVALUATOR_ROLE = 'EVALUATOR';
+export const MANAGER_ROLE = 'MANAGER';
+
+export const ROLES = {
+  [MANAGER_ROLE]: 0,
+  [EVALUATOR_ROLE]: 1,
+  [WORKER_ROLE]: 2,
+};
+
+export const DEFAULT_DOMAIN_ID = 1;
+
+export const OWNER_ROLE = 'OWNER';
+export const ADMIN_ROLE = 'ADMIN';
+
+export const AUTHORITY_ROLES = {
+  [OWNER_ROLE]: 0,
+  [ADMIN_ROLE]: 1,
+};
+
+export const ACTIVE_TASK_STATUS = 'ACTIVE';
+export const CANCELLED_TASK_STATUS = 'CANCELLED';
+export const FINALIZED_TASK_STATUS = 'FINALIZED';
+
+export const TASK_STATUSES = {
+  [ACTIVE_TASK_STATUS]: 0,
+  [CANCELLED_TASK_STATUS]: 1,
+  [FINALIZED_TASK_STATUS]: 2,
+};
+
+export const EMPTY_ADDRESS = '0x0000000000000000000000000000000000000000';
